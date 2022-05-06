@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre GAMES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="tituloPrincipal">SOBRE GAMES</h1>
+    <div>
+        <h2 class="subtitulo">Você gosta de vídeo games?</h2>
+        <input type="radio" name="check1" id="yes" checked>
+        <label for="yes">Sim</label>
+        <input type="radio" name="check1" id="no">
+        <label for="no">Não</label>
+    </div>
+    <div>
+        <h2 class="subtitulo">Você tem amigos?</h2>
+        <input type="radio" name="check2" id="yes">
+        <label for="yes">Sim</label>
+        <input type="radio" name="check2" id="no">
+        <label for="no">Não</label>
+        
+    </div>
+    <div>
+        <h2 class="subtitulo">Amigos reais ou virtuais?</h2>
+        <input type="radio" name="check3" id="yes">
+        <label for="yes">Reais</label>
+        <input type="radio" name="check3" id="no">
+        <label for="no">Virtuais</label>
+    </div>
+    <div id="res">
+        <h2 class="subtitulo">Seu resultado!</h2>
+        <input type="button" value="Verificar" onclick="verificar()">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
